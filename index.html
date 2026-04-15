@@ -6,15 +6,25 @@
 
     <!-- SEO -->
     <title>Favorite Part — The question kids love to answer.</title>
-    <meta name="description" content="Favorite Part is a daily question app that sparks real conversations between parents and kids. One question. A genuine answer. Every day." />
-    <meta name="keywords" content="daily reflection app for kids, meaningful conversations with kids, kids daily question app, what was your favorite part of today, children reflection habit" />
+    <meta name="description" content="Favorite Part is a daily question app that sparks real conversations between parents and kids. Record their answer, see what matters to them, and build a reflection habit that lasts a lifetime." />
+    <meta name="keywords" content="daily reflection app for kids, meaningful conversations with kids, kids daily question app, what was your favorite part of today, children reflection habit, family bonding app" />
     <link rel="canonical" href="https://yourfavoritepart.com" />
 
-    <!-- Open Graph (for sharing previews) -->
+    <!-- Open Graph -->
     <meta property="og:title" content="Favorite Part — The question kids love to answer." />
     <meta property="og:description" content="One simple question that sparks real conversation between you and your child. Every day." />
     <meta property="og:url" content="https://yourfavoritepart.com" />
     <meta property="og:type" content="website" />
+
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon-16x16.png" />
+    <link rel="manifest" href="assets/site.webmanifest" />
+
+    <!-- Fonts — rounded sans to match the app's SF Pro Rounded feel -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,600&display=swap" rel="stylesheet" />
 
     <link rel="stylesheet" href="style.css" />
 </head>
@@ -23,53 +33,100 @@
     <!-- ===================== NAV ===================== -->
     <nav>
         <div class="nav-inner">
-            <span class="nav-logo">Favorite Part</span>
-            <a href="#download" class="btn btn-small">Download</a>
+            <a href="/" class="nav-logo">
+                <img src="assets/Wordmark-Indigo.svg" alt="Favorite Part" class="nav-wordmark" />
+            </a>
+            <a href="#download" class="btn btn-nav">Download Free</a>
         </div>
     </nav>
 
     <!-- ===================== HERO ===================== -->
     <section class="hero">
-        <div class="container">
-            <div class="hero-text">
-                <h1>The question kids<br/>love to answer.</h1>
+        <div class="hero-bg"></div>
+        <div class="container hero-grid">
+            <div class="hero-text reveal">
+                <h1>The question kids love to&nbsp;answer.</h1>
                 <p class="hero-sub">
-                    "What was your favorite part of today?" Ask it every night.
-                    Watch your child open up in ways that surprise you —
-                    and build a habit of reflection that lasts a lifetime.
+                    You just have to ask the right question.<br />
+                    <span class="hero-question">"What was your favorite part of&nbsp;today?"</span>
                 </p>
-                <a href="#download" class="btn btn-primary">
-                    <img src="assets/app-store-badge.svg" alt="Download on the App Store" class="app-store-badge" />
-                </a>
-            </div>
-            <div class="hero-screenshot">
-                <!-- PLACEHOLDER: replace with hero screenshot -->
-                <div class="phone-placeholder">
-                    <span>Screenshot</span>
+                <p class="hero-body">
+                    Favorite Part turns that one question into a daily ritual.
+                    Tap record, listen to their answer, and watch &mdash; day after day &mdash;
+                    as your child opens up in ways that surprise&nbsp;you.
+                </p>
+                <div class="hero-cta">
+                    <a href="#download" class="btn btn-primary">Download for iPhone</a>
+                    <span class="hero-note">Free. No account. No&nbsp;ads.</span>
                 </div>
             </div>
+            <div class="hero-device reveal reveal-delay-1">
+                <div class="phone-frame">
+                    <div class="phone-screen">
+                        <span>Record Screen</span>
+                    </div>
+                </div>
+                <div class="hero-glow"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===================== THE SHIFT ===================== -->
+    <section class="shift">
+        <div class="container">
+            <div class="shift-card reveal">
+                <div class="shift-before">
+                    <p class="shift-label">Before</p>
+                    <p class="shift-quote">"How was your day?"</p>
+                    <p class="shift-answer">"Fine."</p>
+                </div>
+                <div class="shift-arrow">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="M12 5l7 7-7 7"/></svg>
+                </div>
+                <div class="shift-after">
+                    <p class="shift-label">After</p>
+                    <p class="shift-quote">"What was your favorite part of today?"</p>
+                    <p class="shift-answer">"When me and Sophie pretended we were horses at recess and we ran SO fast and then we fell down and we couldn't stop&nbsp;laughing."</p>
+                </div>
+            </div>
+            <p class="shift-caption reveal">The question changes the conversation. The app helps you keep&nbsp;it.</p>
         </div>
     </section>
 
     <!-- ===================== HOW IT WORKS ===================== -->
     <section class="how-it-works">
         <div class="container">
-            <h2>How it works</h2>
+            <div class="section-header reveal">
+                <h2>Thirty seconds. Every&nbsp;day.</h2>
+                <p class="section-sub">That's all it takes to build a habit that changes how you connect with your&nbsp;kid.</p>
+            </div>
             <div class="steps">
-                <div class="step">
-                    <div class="step-number">1</div>
-                    <h3>Ask</h3>
-                    <p>Open the app, hit record, and ask your child the question. That's it. The rest happens naturally.</p>
+                <div class="step reveal">
+                    <div class="step-icon" style="--accent: var(--coral)">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><circle cx="12" cy="12" r="3" fill="currentColor" stroke="none"/></svg>
+                    </div>
+                    <div class="step-text">
+                        <h3>Tap record</h3>
+                        <p>Open the app, tap your child's avatar, and ask the question. Done in&nbsp;seconds.</p>
+                    </div>
                 </div>
-                <div class="step">
-                    <div class="step-number">2</div>
-                    <h3>Listen</h3>
-                    <p>Favorite Part captures their answer and transcribes what they said — so you can search and revisit it any time.</p>
+                <div class="step reveal reveal-delay-1">
+                    <div class="step-icon" style="--accent: var(--primary)">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 1a3 3 0 0 0-3 3v8a3 3 0 0 0 6 0V4a3 3 0 0 0-3-3z"/><path d="M19 10v2a7 7 0 0 1-14 0v-2"/><line x1="12" y1="19" x2="12" y2="23"/><line x1="8" y1="23" x2="16" y2="23"/></svg>
+                    </div>
+                    <div class="step-text">
+                        <h3>Listen</h3>
+                        <p>Their answer is transcribed automatically and tagged by theme &mdash; friends, school, outdoors, animals. All on your&nbsp;phone.</p>
+                    </div>
                 </div>
-                <div class="step">
-                    <div class="step-number">3</div>
-                    <h3>Discover</h3>
-                    <p>See patterns in what they love, watch highlight reels of their best moments, and watch them grow.</p>
+                <div class="step reveal reveal-delay-2">
+                    <div class="step-icon" style="--accent: var(--gold)">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="22 12 18 12 15 21 9 3 6 12 2 12"/></svg>
+                    </div>
+                    <div class="step-text">
+                        <h3>Discover</h3>
+                        <p>Over weeks and months, patterns emerge. You'll learn things about your child you never knew &mdash; what they care about, who matters to them, how they're&nbsp;growing.</p>
+                    </div>
                 </div>
             </div>
         </div>
@@ -78,80 +135,169 @@
     <!-- ===================== SCREENSHOTS ===================== -->
     <section class="screenshots">
         <div class="container">
-            <h2>Built for real family life</h2>
-            <p class="section-sub">Simple enough to use every night. Rich enough to treasure forever.</p>
             <div class="screenshot-row">
-                <!-- PLACEHOLDER: replace each with a real screenshot -->
-                <div class="phone-placeholder"><span>Recording</span></div>
-                <div class="phone-placeholder"><span>Profile</span></div>
-                <div class="phone-placeholder"><span>Insights</span></div>
+                <div class="screenshot-card reveal">
+                    <div class="phone-frame phone-sm">
+                        <div class="phone-screen"><span>Record</span></div>
+                    </div>
+                    <p class="screenshot-label">Ask the question. Hit&nbsp;record.</p>
+                </div>
+                <div class="screenshot-card reveal reveal-delay-1">
+                    <div class="phone-frame phone-sm">
+                        <div class="phone-screen"><span>Home</span></div>
+                    </div>
+                    <p class="screenshot-label">A library of what matters to&nbsp;them.</p>
+                </div>
+                <div class="screenshot-card reveal reveal-delay-2">
+                    <div class="phone-frame phone-sm">
+                        <div class="phone-screen"><span>Insights</span></div>
+                    </div>
+                    <p class="screenshot-label">Watch how they grow over&nbsp;time.</p>
+                </div>
             </div>
         </div>
     </section>
 
-    <!-- ===================== WHY ===================== -->
-    <section class="why">
+    <!-- ===================== WHAT YOU'LL LEARN ===================== -->
+    <section class="learn">
         <div class="container">
-            <h2>Why parents love it</h2>
-            <div class="reasons">
-
-                <div class="reason">
-                    <div class="reason-icon">💬</div>
-                    <h3>It starts conversations you wouldn't otherwise have</h3>
-                    <p>Most parent-child interaction is transactional — homework, dinner, bedtime. This question carves out space for something different. You'll be surprised what they say when you ask.</p>
+            <div class="section-header reveal">
+                <h2>You'll learn things about your kids you didn't&nbsp;know.</h2>
+            </div>
+            <div class="learn-grid">
+                <div class="learn-card reveal">
+                    <div class="learn-icon" style="--accent: var(--coral)">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+                    </div>
+                    <h3>Who their people are</h3>
+                    <p>The friends they mention. The teacher who made them laugh. The cousin they can't stop talking&nbsp;about.</p>
                 </div>
-
-                <div class="reason">
-                    <div class="reason-icon">🧠</div>
-                    <h3>It teaches kids to reflect</h3>
-                    <p>Children who are asked to think about what mattered to them learn to recognize what matters. That's a skill that compounds for a lifetime.</p>
+                <div class="learn-card reveal reveal-delay-1">
+                    <div class="learn-icon" style="--accent: var(--teal)">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="22 12 18 12 15 21 9 3 6 12 2 12"/></svg>
+                    </div>
+                    <h3>What's changing</h3>
+                    <p>"Friends" replaced "playground" this month. "Books" is new. You'd never notice without the data &mdash; but it's&nbsp;there.</p>
                 </div>
-
-                <div class="reason">
-                    <div class="reason-icon">🎙️</div>
-                    <h3>It captures how they saw the world at this age</h3>
-                    <p>The way a 4-year-old explains a great day is completely different from the way a 7-year-old does. Favorite Part preserves their voice, their logic, and their perspective — not just their face.</p>
+                <div class="learn-card reveal">
+                    <div class="learn-icon" style="--accent: var(--gold)">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg>
+                    </div>
+                    <h3>What lights them up</h3>
+                    <p>Word clouds, theme charts, and trends show you the full picture of what your child cares about &mdash; in their own&nbsp;words.</p>
                 </div>
-
-                <div class="reason">
-                    <div class="reason-icon">🔍</div>
-                    <h3>Every answer is searchable</h3>
-                    <p>Remember when she said something hilarious about the dog last spring? Find it. Every recording is transcribed and fully searchable.</p>
+                <div class="learn-card reveal reveal-delay-1">
+                    <div class="learn-icon" style="--accent: var(--primary)">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="23 7 16 12 23 17 23 7"/><rect x="1" y="5" width="15" height="14" rx="2" ry="2"/></svg>
+                    </div>
+                    <h3>Moments worth sharing</h3>
+                    <p>Generate highlight reels from a week of answers. Send them to grandparents, a partner, or just your future&nbsp;self.</p>
                 </div>
+            </div>
+        </div>
+    </section>
 
+    <!-- ===================== FAMILY ===================== -->
+    <section class="family">
+        <div class="container family-row reveal">
+            <div class="family-dots">
+                <div class="dot" style="background: #FF6B6B"></div>
+                <div class="dot" style="background: #48DBFB"></div>
+                <div class="dot" style="background: #FECA57"></div>
+                <div class="dot" style="background: #5CD85C"></div>
+            </div>
+            <div class="family-text">
+                <h3>Built for the whole family</h3>
+                <p>Add all your kids, each with their own color. See insights across siblings. Make reels with everyone. Works just as well with one child as with&nbsp;four.</p>
             </div>
         </div>
     </section>
 
     <!-- ===================== PRIVACY ===================== -->
-    <section class="privacy-callout">
-        <div class="container">
-            <div class="privacy-inner">
-                <h2>Your videos never leave your device.</h2>
-                <p>Favorite Part stores all video recordings locally on your phone — always. With your permission, some text data may be processed to enable optional app features. No ads. No data brokering. Your family's memories belong to your family.</p>
+    <section class="privacy">
+        <div class="privacy-bg"></div>
+        <div class="container privacy-content">
+            <div class="privacy-header reveal">
+                <h2>Your videos never leave your&nbsp;device. Ever.</h2>
+                <p class="privacy-sub">We didn't build a server that stores your family's videos &mdash; because we built the app so we'd never need&nbsp;one.</p>
+            </div>
+
+            <div class="privacy-pills reveal">
+                <span class="pill">No account</span>
+                <span class="pill">No cloud</span>
+                <span class="pill">No subscription</span>
+                <span class="pill">No ads</span>
+                <span class="pill">No tracking</span>
+            </div>
+
+            <div class="privacy-details">
+                <div class="privacy-detail reveal">
+                    <div class="detail-dot"></div>
+                    <div>
+                        <strong>Videos stay on your phone</strong>
+                        <p>No exceptions, no opt-ins, no fine&nbsp;print.</p>
+                    </div>
+                </div>
+                <div class="privacy-detail reveal reveal-delay-1">
+                    <div class="detail-dot"></div>
+                    <div>
+                        <strong>Transcription runs on your phone</strong>
+                        <p>Apple's on-device speech recognition. We don't have servers to send it&nbsp;to.</p>
+                    </div>
+                </div>
+                <div class="privacy-detail reveal reveal-delay-2">
+                    <div class="detail-dot"></div>
+                    <div>
+                        <strong>Community insights are opt-in and anonymous</strong>
+                        <p>If you choose, we count topics. Never names. Never&nbsp;recordings.</p>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
 
     <!-- ===================== DOWNLOAD ===================== -->
     <section class="download" id="download">
-        <div class="container">
-            <h2>Start tonight.</h2>
-            <p>Ask the question. See what they say.</p>
-            <a href="#" class="btn btn-primary">
-                <!-- PLACEHOLDER: replace href with App Store URL -->
-                <img src="assets/app-store-badge.svg" alt="Download on the App Store" class="app-store-badge" />
-            </a>
+        <div class="container reveal">
+            <h2>Start today.</h2>
+            <p>Ask the question. See what they&nbsp;say.</p>
+            <a href="#" class="btn btn-primary btn-lg">Download for iPhone</a>
+            <span class="download-note">Free forever. No account needed.</span>
         </div>
     </section>
 
     <!-- ===================== FOOTER ===================== -->
     <footer>
+        <div class="container footer-inner">
+            <div class="footer-brand">
+                <img src="assets/Wordmark-Light.svg" alt="Favorite Part" class="footer-wordmark" />
+                <span class="footer-copy">&copy; 2026 Favorite Part</span>
+            </div>
+            <div class="footer-links">
+                <a href="privacy.html">Privacy Policy</a>
+                <a href="mailto:hello@yourfavoritepart.com">Contact</a>
+            </div>
+        </div>
         <div class="container">
-            <span>© 2026 Favorite Part</span>
-            <a href="privacy.html">Privacy Policy</a>
+            <p class="footer-fine">Transcription accuracy may vary for younger children. All transcriptions are&nbsp;editable.</p>
         </div>
     </footer>
+
+    <!-- ===================== SCROLL REVEAL ===================== -->
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const reveals = document.querySelectorAll('.reveal');
+            const observer = new IntersectionObserver((entries) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        entry.target.classList.add('revealed');
+                        observer.unobserve(entry.target);
+                    }
+                });
+            }, { threshold: 0.12, rootMargin: '0px 0px -30px 0px' });
+            reveals.forEach(el => observer.observe(el));
+        });
+    </script>
 
 </body>
 </html>
