@@ -244,6 +244,15 @@ nav {
     letter-spacing: 0.14em;
 }
 
+/* Real screenshots fill the screen and inherit the screen's rounded corners. */
+.phone-screen img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: inherit;
+    display: block;
+}
+
 /* =============================================
    THE SHIFT — before/after the question
    ============================================= */
